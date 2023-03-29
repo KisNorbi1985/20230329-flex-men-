@@ -6,7 +6,7 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Betűtípus fallback*/
     background: #eea;
-    padding: 5px;
+    
 }
 .container{
     border: 5px solid deeppink;

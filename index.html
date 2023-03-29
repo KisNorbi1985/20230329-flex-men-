@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Menü elrendezés 1</title>
+    <style>
+        nav {
+            background: #666;
+        }
+        nav a{
+            text-decoration: none;
+            color: #eea;
+            text-transform: capitalize;
+        }
+        .container > li {
+            padding: 5px;
+            text-align: center;
+        }
+        /*input formázása*/
+        .search-input {
+            border: 0;
+            outline: none;
+            width: 100%;
+            background: transparent;
+            padding: 5px;
+            color: lightskyblue;
+            text-align: center;
+            font-size: 1em;
+        }
+        ::placeholder{/*minden placeholder*/
+            color: darkslategrey;
+        }
+        .search-input::placeholder{/*csak a search input placeholdere*/
+            color: pink;
+        }
+    </style>
 </head>
 <body>
     <!-- nav>ul.container>li*5>a[href="#"]{menü $} -->
