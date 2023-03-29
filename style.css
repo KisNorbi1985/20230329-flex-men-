@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Betűtípus fallback*/
+    background: #eea;
+    padding: 5px;
+}
+.container{
+    border: 5px solid deeppink;
+}
+.container > div{/*a container osztályon belüli közvetlen div*/
+    background: #fff;
+    border: 1px solid cadetblue;
+    color: orangered;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.container > div:first-child{
+    background: #87bfa5;
+}
+/*.container > div:last-child{
+    background: cornflowerblue;
+}*/
+.container > div:nth-child(2){
+    background: goldenrod;
+}
+.container > div:nth-child(3){
+    background: greenyellow;
+/*
+nth-child(2n) - páros
+nth-child(2n-1) - páratlan
+*/
+}
