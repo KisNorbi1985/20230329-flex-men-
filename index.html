@@ -50,6 +50,23 @@
                 flex-basis: 50%;
             }
         }
+        /*desktop*/
+        @media screen and (min-width: 1200px){
+            .container {
+                flex-wrap: nowrap;
+                width: 1200px;
+                margin: 0 auto;
+            }
+            .container > li {
+                flex-basis: auto;
+            }
+            .search {
+                flex: 1 1 auto;
+            }
+            .search-input {
+                text-align: left;
+            }
+        }
     </style>
 </head>
 <body>
@@ -60,7 +77,7 @@
             <li><a href="#">about us</a></li>
             <li><a href="#">blog</a></li>
             <li><a href="#">products</a></li>
-            <li>
+            <li class="search">
                 <form>
                     <label>
                         <input type="text" name="search" class="search-input" placeholder="search...">
